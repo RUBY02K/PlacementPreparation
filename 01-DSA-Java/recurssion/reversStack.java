@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class ReverseStack {
+public Class ReverseStack {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
