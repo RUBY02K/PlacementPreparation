@@ -1,4 +1,4 @@
- Write your MySQL query statement below
+--  Write your MySQL query statement below
 SELECT
     ROUND(
         COUNT(DISTINCT a.player_id) * 1.0 /
