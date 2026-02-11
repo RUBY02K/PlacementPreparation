@@ -1,5 +1,5 @@
  class Car{
-
+    
     String color ;
    private String brand  ;
    private String model ;
