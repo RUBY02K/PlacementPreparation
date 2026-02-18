@@ -1,4 +1,4 @@
-
+package Animal;
 public class animal {
   private  String name ; 
   private  int age ; 
