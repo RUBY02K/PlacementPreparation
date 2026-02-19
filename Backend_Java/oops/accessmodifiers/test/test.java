@@ -11,4 +11,7 @@ public class test {
         Student student6 = new Student();
         System.out.println(Student.count);
     }
+    public static void  concept (){
+        System.out.println("concept of static ");
+    }
 }
