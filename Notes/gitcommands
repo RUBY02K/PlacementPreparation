@@ -1,0 +1,11 @@
+Your Code
+   ↓
+git add .
+   ↓
+git commit   (LOCAL SAVE) in local pc no internet upload
+   ↓
+git push     (UPLOAD TO GITHUB)
+
+1. git add .
+2.git commit -m "daily work"
+3. git push origin main
