@@ -9,3 +9,96 @@ git push     (UPLOAD TO GITHUB)
 1. git add .
 2.git commit -m "daily work"
 3. git push origin main
+
+
+
+GIT COMMANDS – QUICK NOTES
+🔹 1. Git Setup / Repo Start
+
+Initialize new git repo:git init
+
+Connect project to GitHub:git remote add origin https://github.com/username/repo.git
+
+Check remote connection:git remote -v
+🔹 2. Daily Workflow (Most Important 🚀)
+
+Check changed files:git status
+
+Add all files:git add .
+
+Add specific file:
+
+git add filename.java
+
+Commit (local save):
+
+git commit -m "your message"
+
+Push to GitHub:
+
+git push
+
+Pull latest changes:
+
+git pull
+🔹 3. First Time Push (Upstream Set)
+
+If error: no upstream branch
+
+git push -u origin main
+
+After that only:
+
+git push
+🔹 4. Branch Commands ⚡
+
+Check current branch:
+
+git branch
+
+Create new branch:
+
+git branch feature1
+
+Switch branch:
+
+git checkout feature1
+
+OR (modern way):
+
+git switch feature1
+
+Create + switch together:
+
+git checkout -b feature1
+🔹 5. History Commands
+
+See commit history:
+
+git log
+
+Short log:
+
+git log --oneline
+
+See changes:
+
+git diff
+🔹 6. Undo / Fix Mistakes ⚠️
+
+Edit last commit message:
+
+git commit --amend
+
+Unstage file:
+
+git restore --staged filename.java
+
+Delete last commit (danger):
+
+git reset --hard HEAD~1
+🔥 Standard Daily Workflow (Placement Ready)
+git status
+git add .
+git commit -m "Day X practice"
+git push
