@@ -1,9 +1,6 @@
 package exceptionhandling;
 
-0
-import accessmodifiers.test.Student;
-
-public class Exception {
+public class exception {
     public static void main(String[] args) {
       try{
           level1();
