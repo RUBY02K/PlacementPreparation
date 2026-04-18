@@ -1,4 +1,4 @@
-package innerclasses;
+package oops.innerclasses;
 
 public class computer {
 private String brand;

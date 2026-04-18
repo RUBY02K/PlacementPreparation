@@ -1,9 +1,9 @@
-package innerclasses;
+package oops.innerclasses;
 
 public class Test {
 
     public static void main(String[] args) {
-        car car = new car("tata safari");
+        innerclasses.car car = new innerclasses.car("tata safari");
         car.Engine engine = car.new Engine();
         engine.start();
         engine.stop();
