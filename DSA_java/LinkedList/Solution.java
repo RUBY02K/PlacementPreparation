@@ -91,6 +91,4 @@ class Solution {
             size--;
         }
     }
-} {
-    
 }
