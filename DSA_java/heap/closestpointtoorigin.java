@@ -1,5 +1,5 @@
 class Solution {
-
+  
     class pair {
         int index;
         long distance;
@@ -21,8 +21,8 @@ class Solution {
         }
 
         PriorityQueue<pair> pq = new PriorityQueue<>(
-            (a, b) -> Long.compare(b.distance, a.distance)
-        );
+            (a, b) -> Long.compare(b.distance, a.distance) 
+        ); // maxheap coz we wnat min distance ..
 
         for (int key : map.keySet()) {
 
