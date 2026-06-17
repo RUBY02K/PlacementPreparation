@@ -26,7 +26,7 @@ public class Test {
          mobile.makevideo();
          mobile.playmusic();
          mobile.stopmusic();
-
+         mobile.playmusic();
 
     }
 }

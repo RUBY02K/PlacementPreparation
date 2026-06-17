@@ -51,5 +51,6 @@ class Solution {
         }
 
         return ans.toString();
+        System.out.println("this is greedy and heap pattern ");
     }
 }
