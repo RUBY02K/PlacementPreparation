@@ -1,5 +1,31 @@
-package DSA_java.Tree;
-
-public class inorder {
-    
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public List<Integer> inorderTraversal(TreeNode root) {
+        ArrayList<Integer> ans = new ArrayList<>();
+        fun(root , ans );
+        return ans ; 
+    }
+    public void fun(TreeNode root , List<Integer>ans ){
+        if(root == null){
+            return ;
+        }
+        fun(root.left , ans );
+        ans.add(root.val);
+        fun(root.right , ans );
+        return ; 
+    }
 }
