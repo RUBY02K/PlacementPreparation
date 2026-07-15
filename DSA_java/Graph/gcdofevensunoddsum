@@ -1,7 +1,7 @@
 public class solution{
-    public int gcd(INT n ){
-        int evensum = n*(n+1);
-        int oddsum = n*n ;
+    public int gcd( int n ){
+        int evensum = n*(n+1); // sum of first n even numbers 
+        int oddsum = n*n ; // sum of first n odd numbers 
         return n ; 
     }
 }
