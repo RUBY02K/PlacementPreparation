@@ -1,0 +1,7 @@
+public class solution{
+    public int gcd(INT n ){
+        int evensum = n*(n+1);
+        int oddsum = n*n ;
+        return n ; 
+    }
+}
