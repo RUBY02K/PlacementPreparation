@@ -55,7 +55,7 @@ class Solution {
                     int nr = r + x[k];
                     int nc = c + y[k];
 
-                    if (isValid(nr, nc, n, m) && grid[nr][nc] == 1) {
+                    if (isValid(newrow, newcol, n, m) && grid[newrow][nc] == 1) {
 
                         grid[nr][nc] = 2;
                         fresh--;
