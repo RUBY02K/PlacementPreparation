@@ -52,15 +52,15 @@ class Solution {
 
                 for (int k = 0; k < 4; k++) {
 
-                    int nr = r + x[k];
-                    int nc = c + y[k];
+                    int newrow = r + x[k];
+                    int newcol = c + y[k];
 
-                    if (isValid(newrow, newcol, n, m) && grid[newrow][nc] == 1) {
+                    if (isValid(newrow, newcol, n, m) && grid[newrow][newcol] == 1) {
 
-                        grid[nr][nc] = 2;
+                        grid[newrow][newcol] = 2;
                         fresh--;
 
-                        q.offer(new Pair(nr, nc));
+                        q.offer(new Pair(newrow, newcol));
                     }
                 }
             }
