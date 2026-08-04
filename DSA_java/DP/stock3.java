@@ -1,7 +1,7 @@
 class Solution {
     public int maxProfit(int[] prices) { 
         int n = prices.length;
-        int k = 2 ;
+        int k = 4 ;
         int dp[][] = new int[n+1][k+1];
         for(int i = 0 ; i < n ; i ++){
             Arrays.fill(dp[i],-1);
@@ -13,7 +13,7 @@ class Solution {
         }
         for(int i = n-1 ; i >=0 ; i--){
             for (int j = 1 ; j <k ; j++){
-                if(j==2){
+                if(j%2==0){
                   dp[i][j] = Math.max(dp[i+1][j-1]-prices[i] , dp[i+1][j]);
                 }
                 else {
@@ -21,6 +21,6 @@ class Solution {
                 }
             }
         }
-        return dp[0][2];
+        return dp[0][4];
     }
 }
