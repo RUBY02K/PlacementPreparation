@@ -1,9 +1,4 @@
-package DSA_java.Arrays;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-
-public class Solution {
+class Solution {
     public long[] distance(int[] nums) {
         long[]res = new long [nums.length];
         HashMap<Integer , ArrayList<Integer>> map = new HashMap<>();
@@ -20,6 +15,4 @@ public class Solution {
         }
         return res ; 
     }
-} {
-    
 }
