@@ -1,6 +1,4 @@
-import java.util.Stack;
-
-public class Solution {
+class Solution {
     public int longestValidParentheses(String s) {
 
         Stack<Integer> st = new Stack<>();
@@ -27,6 +25,4 @@ public class Solution {
 
         return max;
     }
-} {
-    
 }
