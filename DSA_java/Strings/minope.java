@@ -1,5 +1,12 @@
-package DSA_java.Strings;
-
-public class minope {
-    
+Minimum Operations to Exceed Threshold Value I
+class Solution {
+    public int minOperations(int[] nums, int k) {
+        int n=0;
+        for(int num: nums){
+            if(num<k){
+                n++;
+            }
+        }
+        return n;
+    }
 }
